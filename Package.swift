@@ -41,7 +41,7 @@ let package = Package(
         .package(url: "https://github.com/vapor/validation.git", from: "2.0.0"),
 
         // 🔌 Non-blocking, event-driven WebSocket client and server built on Swift NIO.
-        .package(url: "https://github.com/vapor/websocket.git", from: "1.0.0"),
+        .package(url: "https://github.com/pvls/websocket.git", from: "1.0.0"),
     ],
     targets: [
         // Boilerplate
